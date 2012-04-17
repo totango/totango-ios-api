@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85488BA1153333C900140240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85488BA0153333C900140240 /* UIKit.framework */; };
+		85488BA3153333C900140240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85488BA2153333C900140240 /* Foundation.framework */; };
+		85488BAD153333C900140240 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85488BAC153333C900140240 /* main.m */; };
+		85488BB1153333C900140240 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85488BB0153333C900140240 /* AppDelegate.m */; };
+		85488BB4153333C900140240 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85488BB3153333C900140240 /* ViewController.m */; };
+		85488BB7153333C900140240 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85488BB5153333C900140240 /* ViewController.xib */; };
+		85488BCA153335D200140240 /* Totango.m in Sources */ = {isa = PBXBuildFile; fileRef = 85488BC9153335D200140240 /* Totango.m */; };
+		856FB198153476730052C906 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 856FB197153476730052C906 /* Readme.txt */; };
+		F2F010BF153DD14B0095C53B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F010BD153DD14B0095C53B /* Icon.png */; };
+		F2F010C0153DD14B0095C53B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F010BE153DD14B0095C53B /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85488B9C153333C900140240 /* TotangoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TotangoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85488BA0153333C900140240 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85488BA2153333C900140240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85488BA8153333C900140240 /* TotangoTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TotangoTest-Info.plist"; sourceTree = "<group>"; };
+		85488BAC153333C900140240 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85488BAE153333C900140240 /* TotangoTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TotangoTest-Prefix.pch"; sourceTree = "<group>"; };
+		85488BAF153333C900140240 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85488BB0153333C900140240 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85488BB2153333C900140240 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85488BB3153333C900140240 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85488BB6153333C900140240 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		85488BC8153335D200140240 /* Totango.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Totango.h; path = ../Totango/Totango/Totango.h; sourceTree = "<group>"; };
+		85488BC9153335D200140240 /* Totango.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Totango.m; path = ../Totango/Totango/Totango.m; sourceTree = "<group>"; };
+		856FB197153476730052C906 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		F2F010BD153DD14B0095C53B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F2F010BE153DD14B0095C53B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85488B99153333C900140240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85488BA1153333C900140240 /* UIKit.framework in Frameworks */,
+				85488BA3153333C900140240 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85488B91153333C900140240 = {
+			isa = PBXGroup;
+			children = (
+				85488BC7153335C100140240 /* Totango */,
+				85488BA6153333C900140240 /* TotangoTest */,
+				85488B9F153333C900140240 /* Frameworks */,
+				85488B9D153333C900140240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85488B9D153333C900140240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85488B9C153333C900140240 /* TotangoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85488B9F153333C900140240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85488BA0153333C900140240 /* UIKit.framework */,
+				85488BA2153333C900140240 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85488BA6153333C900140240 /* TotangoTest */ = {
+			isa = PBXGroup;
+			children = (
+				F2F010BD153DD14B0095C53B /* Icon.png */,
+				F2F010BE153DD14B0095C53B /* Icon@2x.png */,
+				85488BAF153333C900140240 /* AppDelegate.h */,
+				85488BB0153333C900140240 /* AppDelegate.m */,
+				85488BB2153333C900140240 /* ViewController.h */,
+				85488BB3153333C900140240 /* ViewController.m */,
+				85488BB5153333C900140240 /* ViewController.xib */,
+				85488BA7153333C900140240 /* Supporting Files */,
+				856FB197153476730052C906 /* Readme.txt */,
+			);
+			path = TotangoTest;
+			sourceTree = "<group>";
+		};
+		85488BA7153333C900140240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85488BA8153333C900140240 /* TotangoTest-Info.plist */,
+				85488BAC153333C900140240 /* main.m */,
+				85488BAE153333C900140240 /* TotangoTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85488BC7153335C100140240 /* Totango */ = {
+			isa = PBXGroup;
+			children = (
+				85488BC8153335D200140240 /* Totango.h */,
+				85488BC9153335D200140240 /* Totango.m */,
+			);
+			name = Totango;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85488B9B153333C900140240 /* TotangoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85488BBA153333C900140240 /* Build configuration list for PBXNativeTarget "TotangoTest" */;
+			buildPhases = (
+				85488B98153333C900140240 /* Sources */,
+				85488B99153333C900140240 /* Frameworks */,
+				85488B9A153333C900140240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TotangoTest;
+			productName = TotangoTest;
+			productReference = 85488B9C153333C900140240 /* TotangoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85488B93153333C900140240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Ievgen;
+			};
+			buildConfigurationList = 85488B96153333C900140240 /* Build configuration list for PBXProject "TotangoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85488B91153333C900140240;
+			productRefGroup = 85488B9D153333C900140240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85488B9B153333C900140240 /* TotangoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85488B9A153333C900140240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85488BB7153333C900140240 /* ViewController.xib in Resources */,
+				856FB198153476730052C906 /* Readme.txt in Resources */,
+				F2F010BF153DD14B0095C53B /* Icon.png in Resources */,
+				F2F010C0153DD14B0095C53B /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85488B98153333C900140240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85488BAD153333C900140240 /* main.m in Sources */,
+				85488BB1153333C900140240 /* AppDelegate.m in Sources */,
+				85488BB4153333C900140240 /* ViewController.m in Sources */,
+				85488BCA153335D200140240 /* Totango.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85488BB5153333C900140240 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85488BB6153333C900140240 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85488BB8153333C900140240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85488BB9153333C900140240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85488BBB153333C900140240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TotangoTest/TotangoTest-Prefix.pch";
+				INFOPLIST_FILE = "TotangoTest/TotangoTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85488BBC153333C900140240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TotangoTest/TotangoTest-Prefix.pch";
+				INFOPLIST_FILE = "TotangoTest/TotangoTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85488B96153333C900140240 /* Build configuration list for PBXProject "TotangoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85488BB8153333C900140240 /* Debug */,
+				85488BB9153333C900140240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85488BBA153333C900140240 /* Build configuration list for PBXNativeTarget "TotangoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85488BBB153333C900140240 /* Debug */,
+				85488BBC153333C900140240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85488B93153333C900140240 /* Project object */;
+}
