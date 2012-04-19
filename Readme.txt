@@ -1,3 +1,15 @@
+Introduction
+
+Totango is a customer engagement platform used by web and mobile applications developers to understand, monitor and ultimately
+increase users' engagement with their application. 
+Using a simple api, you can start seeing how users are using your mobile app, what features and functions are used and how those behaviors
+affect conversion and ongoing retention.
+
+see: http://www.totango.com for more info. 
+
+This github project packages the totango api in objective-C, making it very easy to instrument native iPad and iPhone apps
+
+
 Getting Started
 
 Requirements
