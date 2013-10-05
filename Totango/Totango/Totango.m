@@ -3,12 +3,12 @@
 //  Totango iOS SDK
 //  Version 1.0
 //
-//  Copyright (c) 2012 Totango Inc. All rights reserved.
+//  Copyright (c) 2013 Totango Inc. All rights reserved.
 //
 
 #import "Totango.h"
 
-static NSString* TOTANGO_BASE_URL = @"http://sdr.totango.com/pixel.gif/?";
+static NSString* TOTANGO_BASE_URL = @"https://sdr.totango.com/pixel.gif/?";
 
 static Totango* sharedTracker = nil;
 
